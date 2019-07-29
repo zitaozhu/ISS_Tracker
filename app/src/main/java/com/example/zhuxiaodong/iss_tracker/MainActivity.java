@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
                     fragmentManager.beginTransaction().hide(activeFragment).show(m_MapFragment).commit();
                     activeFragment = m_MapFragment;
                     return true;
-                case R.id.navigation_dashboard:
+                case R.id.info_dashboard:
                     fragmentManager.beginTransaction().hide(activeFragment).show(m_InfoFragment).commit();
                     activeFragment = m_InfoFragment;
                     return true;
